@@ -1,0 +1,88 @@
+.row {
+  height: 70px;
+  width: 812px;
+  left: 495px;
+  top: 235px;
+  border-radius: 6px;
+  padding: 15px 20px;
+  background: #F5F6F8;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  margin: 20px 0px;
+}
+.request {
+  width: 219px;
+  height: 18px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0856B1;
+}
+.status{
+  width: 101px;
+  height: 16px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+.iin {
+  width: 142px;
+  height: 16px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #2c3537;
+}
+.process{
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+    padding: 4px 12px;
+    gap: 8px;
+    width: 88px;
+    height: 28px;
+    background: #EFEFEF;
+    border-radius: 40px;
+    align-self: flex-end;
+    }
+    .text{
+      width: 821px;
+height: 18px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #2C3537;
+    }
+    .signed{
+      display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 12px;
+gap: 8px;
+width: 87px;
+height: 28px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #F5F6F8;
+background: #26C569;
+border-radius: 40px ;
+border-color: #26C569;
+
+    }

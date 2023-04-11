@@ -1,0 +1,25 @@
+
+.notice{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 15px 20px;
+gap: 16px;
+width: 850px;
+height: 54px;
+background: #E7F5EE;
+border: 1px solid #008F91;
+border-radius: 8px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #2C3537;
+}
+.img{
+    color:#008F91"
+}
+
+
+

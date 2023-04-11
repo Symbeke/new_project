@@ -1,0 +1,87 @@
+.row {
+  height: 68px;
+  width: 869px;
+  left: 495px;
+  top: 235px;
+  border-radius: 6px;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #008f91;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 26px;
+}
+.request {
+  width: 219px;
+  height: 18px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.date {
+  width: 101px;
+  height: 16px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+.bio {
+  width: 142px;
+  height: 16px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #2c3537;
+}
+.status{
+    font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            background: #ffe766;
+            border-radius: 40px;
+            height: 28px;
+            width: 192px;
+            left: 67px;
+            top: 0px;
+            padding: 4px 12px 4px 12px;
+}
+.newRow{
+height: 68px;
+  width: 869px;
+  left: 495px;
+  top: 235px;
+  border-radius: 6px;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 26px;
+}
+.process{
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+    padding: 4px 12px;
+    gap: 8px;
+    width: 88px;
+    height: 28px;
+    background: #EFEFEF;
+    border-radius: 40px;
+    align-self: flex-end;
+    }

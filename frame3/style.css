@@ -1,0 +1,46 @@
+/* .container{
+    display:flex
+} */
+.info{
+    display: flex;
+    width: 812px;
+height: 79px;
+background: #E7F5EE;
+border-radius: 8px;
+
+
+
+}
+.text{
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+width: 764px;
+height: 43px;
+padding: 18px 24px;
+gap: 16px;
+}
+.buttons{
+    display: flex;
+    width: 812px;
+height: 79px;
+justify-content: end;
+}
+.deny{
+    width: 123px;
+height: 48px;
+background: #FFFFFF;
+border: 1px solid #D2D4D4;
+border-radius: 6px;
+padding: 6px 20px;
+margin: 20px 0px 20px 20px;
+}
+.accept{
+    margin: 20px 0px 20px 20px;
+    width: 109px;
+height: 48px;
+background: #F05E22;
+border-radius: 6px;
+}

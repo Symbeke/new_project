@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="info"><div class="text">Заемщик <b>Фамилия Имя Отчество ИИН 410619400123</b> просит Вас дать свое согласие на 
+        Частичное досрочное погашение займа займа в АО “Отбасы бак”.</div></div>
+    <div class="buttons">
+        <button type="button" class="deny">Отклонить</button><button type="button" class="accept" data-toggle="modal" data-target="#myModal">Согласен</button>
+        </div>
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Введите СМС-код</h4>
+      </div>
+      <div class="modal-body">
+        <p>На Ваш номер +7 7** *** ** 67 было отправлен СМС-код для подтверждения вашей заявки</p>
+        <p><input type="text" placeholder="введите код" class="codeInput"></p>
+        <button type="primary" class="buttonCount">Запросить повторно через 1:55</button>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary" data-dismiss="modal" style="background-color: #008F91;">Отправить</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

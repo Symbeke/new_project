@@ -1,0 +1,65 @@
+.buttonCount{
+    align-items: center;
+padding: 6px 20px;
+gap: 8px;
+width: 400px;
+height: 48px;
+background: #F5F6F8;
+border-radius: 6px;
+ border-color: #F5F6F8;
+}
+.codeInput{
+    align-items: center;
+padding: 6px 20px;
+gap: 8px;
+width: 400px;
+height: 48px;
+background: #F5F6F8;
+border-radius: 6px;
+border-color: #F5F6F8;
+align-self: center;
+}
+.modal-content{
+    width: 460px;
+    height: 348px;
+    align-self: center;
+}
+.info{
+    display: flex;
+    width: 812px;
+height: 79px;
+background: #E7F5EE;
+border-radius: 8px;}
+.buttons{
+    display: flex;
+    width: 812px;
+height: 79px;
+justify-content: end;
+}
+.text{
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+width: 764px;
+height: 43px;
+padding: 18px 24px;
+gap: 16px;
+}
+.deny{
+    width: 123px;
+height: 48px;
+background: #FFFFFF;
+border: 1px solid #D2D4D4;
+border-radius: 6px;
+padding: 6px 20px;
+margin: 20px 0px 20px 20px;
+}
+.accept{
+    margin: 20px 0px 20px 20px;
+    width: 109px;
+height: 48px;
+background: #F05E22;
+border-radius: 6px;
+}
